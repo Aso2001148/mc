@@ -1,0 +1,102 @@
+#top{
+    width: 100vw;
+    display: grid;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    grid-template:
+    "form img"100vh
+    /60vw 40vw
+    ;
+}
+.form{
+    grid-area: form;
+    font-size: 18px;
+    color: rgb(148, 159, 168);
+}
+/* Survay */
+.form1{
+    font-weight: 800;
+    font-size: 96px;
+    width: 27vw;
+    color: rgb(0, 217, 255);
+    margin: auto auto;
+    margin-top: 30vh;
+    margin-bottom: 40px;
+    font-family: "MS Pゴシック" ;
+}
+/* Twitter */
+.btn1{
+    width: 25vw;
+    margin-bottom: 10px;
+}
+.btn2{
+    width: 25vw;
+    margin-bottom: 10px;
+}
+.img{
+    grid-area: img;
+}
+.img{
+    background-image: url(../img/index_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+.fa-twitter{
+    color: rgb(215, 224, 233);
+    width: 20px;
+    margin-right: 10px;
+}
+.fa-facebook-f{
+    color: rgb(215, 224, 233);
+    width: 20px;
+    margin-right: 10px;
+}
+
+.btn1{
+    width: 20vw;
+    padding: 9px;
+    margin: 20px auto;
+    border: 1px solid rgb(58, 148, 233);
+    background-color: rgb(58, 148, 233);
+    color: aliceblue;
+}
+.btn2{
+    width: 20vw;
+    padding: 9px;
+    margin: 20px auto;
+    border: 1px solid rgb(33, 41, 156);
+    background-color: rgb(33, 41, 156);
+    color: aliceblue;
+}
+
+/* または */
+/* .boxor{
+    width: 40vw;
+    margin: 0 auto;
+} */
+.or {
+    position: relative;
+    display: inline-block;
+    padding: 0 200px;
+    margin-bottom: 30px;
+  }
+  
+.or:before, .or:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    /* width: 45px; */
+    width: 10vw;
+    height: 1px;
+    background-color: rgb(148, 159, 168);
+  }
+
+.or:before {
+    left:0;
+  }
+.or:after {
+    right: 0;
+  }
