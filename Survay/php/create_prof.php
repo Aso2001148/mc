@@ -22,32 +22,32 @@
         <span class="sub_title">※後から変更できます</span>
     </div>
     <form>
-        <div class="form">　
-            <div class="txt_div">
-                <span class="prof_icon"><ion-icon name="accessibility-outline"></ion-icon></span>
-                <span class="prof_txt">年齢</span>
-            </div>
+        <div class="form">
             <div class="old_div">
+                <div class="txt_div">
+                    <span class="prof_icon"><ion-icon name="accessibility-outline"></ion-icon></span>
+                    <span class="prof_txt">年齢</span>
+                </div>
                 <ul class="old_ul">
                     <li>
                         <input type="radio" name="old" value="old_10" id="before10">
-                        <label for="before10">10代</label>
+                        <label for="before10">10代　</label>
                     </li>
                     <li>
                         <input type="radio" name="old" value="old_20" id="after10">
-                        <label for="after10">20代</label>
+                        <label for="after10">20代　</label>
                     </li>
                     <li>
                         <input type="radio" name="old" value="old_30" id="before20">
-                        <label for="before20">30代</label>
+                        <label for="before20">30代　　</label>
                     </li>
                     <li>
                         <input type="radio" name="old" value="old_40" id="after20">
-                        <label for="after20">40代</label>
+                        <label for="after20">40代　</label>
                     </li>
                     <li>
                         <input type="radio" name="old" value="old_50" id="before30">
-                        <label for="before30">50代</label>
+                        <label for="before30">50代　</label>
                     </li>
                     <li>
                         <input type="radio" name="old" value="after60" id="after60">
