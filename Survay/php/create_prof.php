@@ -75,19 +75,19 @@
                 <ul class="gender_ul">
                     <label for="gender_1">
                         <li class="gender_1">
-                            <input type="radio" name="gender" value="man" id="gender_1">
+                            <input type="radio" name="gender" value="man" id="gender_1" onclick="gender_checked()">
                             男性
                         </li>
                     </label>
                     <label for="gender_2">
                         <li class="gender_2">
-                            <input type="radio" name="gender" value="woman" id="gender_2">
+                            <input type="radio" name="gender" value="woman" id="gender_2" onclick="gender_checked()">
                             女性
                         </li>
                     </label>
                     <label for="gender_3">
                         <li class="gender_3">
-                            <input type="radio" name="gender" value="other" id="gender_3">
+                            <input type="radio" name="gender" value="other" id="gender_3" onclick="gender_checked()">
                             その他
                         </li>
                     </label>
@@ -101,25 +101,25 @@
                 <ul class="blood_ul">
                     <label for="blood_1">
                         <li class="blood_1">
-                            <input type="radio" name="blood" value="blood_A" id="blood_1">
+                            <input type="radio" name="blood" value="blood_A" id="blood_1" onclick="blood_checked()">
                             A型
                         </li>
                     </label>
                     <label for="blood_2">
                         <li class="blood_2">
-                            <input type="radio" name="blood" value="blood_B" id="blood_2">
+                            <input type="radio" name="blood" value="blood_B" id="blood_2" onclick="blood_checked()">
                             B型
                         </li>
                     </label>
                     <label for="blood_3">
                         <li class="blood_3">
-                            <input type="radio" name="blood" value="blood_AB" id="blood_3">
+                            <input type="radio" name="blood" value="blood_AB" id="blood_3" onclick="blood_checked()">
                             AB型
                         </li>
                     </label>
                     <label for="blood_4">
                         <li class="blood_4">
-                            <input type="radio" name="blood" value="blood_O" id="blood_4">
+                            <input type="radio" name="blood" value="blood_O" id="blood_4" onclick="blood_checked()">
                             O型
                         </li>
                     </label>
@@ -133,61 +133,61 @@
                 <ul class="job_ul">
                     <label for="job_1">
                         <li class="job_1">
-                            <input type="radio" name="job" value="none" id="job_1">
+                            <input type="radio" name="job" value="none" id="job_1" onclick="job_checked()">
                             学生 主婦・主婦 その他
                         </li>
                     </label>
                     <label for="job_2">
                         <li class="job_2">
-                            <input type="radio" name="job" value="free" id="job_2">
+                            <input type="radio" name="job" value="free" id="job_2" onclick="job_checked()">
                             フリーター
                         </li>
                     </label>
                     <label for="job_3">
                         <li class="job_3">
-                            <input type="radio" name="job" value="service" id="job_3">
+                            <input type="radio" name="job" value="service" id="job_3" onclick="job_checked()">
                             サービス業
                         </li>
                     </label>
                     <label for="job_4">
                         <li class="job_4">
-                            <input type="radio" name="job" value="IT" id="job_4">
+                            <input type="radio" name="job" value="IT" id="job_4" onclick="job_checked()">
                             IT系
                         </li>
                     </label>
                     <label for="job_5">
                         <li class="job_5">
-                            <input type="radio" name="job" value="medic" id="job_5">
+                            <input type="radio" name="job" value="medic" id="job_5" onclick="job_checked()">
                             医療・福祉系
                         </li>
                     </label>
                     <label for="job_6">
                         <li class="job_6">
-                            <input type="radio" name="job" value="teach" id="job_6">
+                            <input type="radio" name="job" value="teach" id="job_6" onclick="job_checked()">
                             教育
                         </li>
                     </label>
                     <label for="job_7">
                         <li class="job_7">
-                            <input type="radio" name="job" value="shipping" id="job_7">
+                            <input type="radio" name="job" value="shipping" id="job_7" onclick="job_checked()">
                             運送業
                         </li>
                     </label>
                     <label for="job_8">
                         <li class="job_8">
-                            <input type="radio" name="job" value="const" id="job_8">
+                            <input type="radio" name="job" value="const" id="job_8" onclick="job_checked()">
                             建設業
                         </li>
                     </label>
                     <label for="job_9">
                         <li class="job_9">
-                            <input type="radio" name="job" value="create" id="job_9">
+                            <input type="radio" name="job" value="create" id="job_9" onclick="job_checked()">
                             製造業
                         </li>
                     </label>
                     <label for="job_10">
                         <li class="job_10">
-                            <input type="radio" name="job" value="other" id="job_10">
+                            <input type="radio" name="job" value="other" id="job_10" onclick="job_checked()">
                             その他
                         </li>
                     </label>
