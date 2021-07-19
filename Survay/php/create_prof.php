@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
-    <link rel="stylesheet" href="../css/main_style.css">
-    <link rel="stylesheet" href="../css/create_prof.css">
+    <link rel="stylesheet" href="main_style.css">
+    <link rel="stylesheet" href="create_prof.css">
 </head>
 <body>
 <header>
@@ -19,9 +19,9 @@
 <div class="main">
     <div class="title_div">
         <span class="main_title">プロフィール作成</span>
-        <span class="sub_title">※後から変更できます</span>
+        <span class="sub_title">※後から変更できます</span><br>
     </div>
-    <form>
+    <form action="AllTimeLine.html">
         <div class="form">
             <div class="old_div">　
                 <div class="txt_div">
@@ -31,32 +31,32 @@
                 <ul class="old_ul">
                     <label for="old_1">
                         <li id="old_1_li" >
-                            <input type="radio" name="old" value="old_10" id="old_1" onclick="old_checked()">
-                            10代　
+                            <input type="radio" name="old" value="old_10" id="old_1" onclick="old_checked()" required>
+                            10代
                         </li>
                     </label>
                     <label for="old_2">
                         <li id="old_2_li">
                             <input type="radio" name="old" value="old_20" id="old_2" onclick="old_checked()">
-                            20代　
+                            20代
                         </li>
                     </label>
                     <label for="old_3">
                         <li id="old_3_li">
                             <input type="radio" name="old" value="old_30" id="old_3" onclick="old_checked()">
-                            30代　　
+                            30代
                         </li>
                     </label>
                     <label for="old_4">
                         <li id="old_4_li">
                             <input type="radio" name="old" value="old_40" id="old_4" onclick="old_checked()">
-                            40代　
+                            40代
                         </li>
                     </label>
                     <label for="old_5">
                         <li id="old_5_li">
                             <input type="radio" name="old" value="old_50" id="old_5" onclick="old_checked()">
-                            50代　
+                            50代
                         </li>
                     </label>
                     <label for="old_6">
@@ -75,7 +75,7 @@
                 <ul class="gender_ul">
                     <label for="gender_1">
                         <li id="gender_1_li">
-                            <input type="radio" name="gender" value="man" id="gender_1" onclick="gender_checked()">
+                            <input type="radio" name="gender" value="man" id="gender_1" onclick="gender_checked()" required>
                             男性
                         </li>
                     </label>
@@ -101,7 +101,7 @@
                 <ul class="blood_ul">
                     <label for="blood_1">
                         <li id="blood_1_li">
-                            <input type="radio" name="blood" value="blood_A" id="blood_1" onclick="blood_checked()">
+                            <input type="radio" name="blood" value="blood_A" id="blood_1" onclick="blood_checked()" required>
                             A型
                         </li>
                     </label>
@@ -133,7 +133,7 @@
                 <ul class="job_ul">
                     <label for="job_1">
                         <li id="job_1_li">
-                            <input type="radio" name="job" value="none" id="job_1" onclick="job_checked()">
+                            <input type="radio" name="job" value="none" id="job_1" onclick="job_checked()" required>
                             学生 主婦・主婦 その他
                         </li>
                     </label>
@@ -195,14 +195,16 @@
             </div>
             <label for="submit_btn">
                 <div class="submit">
+                    決定！
                     <input type="submit" value="決定！" class="submit_btn" id="submit_btn">
                 </div>
             </label>
+            <span class="attention">※未入力の場合先に進めません</span>
         </div>
     </form>
 </div>
 
-    <script src="../js/create_prof.js"></script>
+<script src="create_prof.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
