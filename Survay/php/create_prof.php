@@ -193,9 +193,11 @@
                     </label>
                 </ul>
             </div>
-            <div class="submit">
-                <input type="submit" value="決定！" class="submit_btn">
-            </div>
+            <label for="submit_btn">
+                <div class="submit">
+                    <input type="submit" value="決定！" class="submit_btn" id="submit_btn">
+                </div>
+            </label>
         </div>
     </form>
 </div>
